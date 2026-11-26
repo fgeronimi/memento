@@ -20,3 +20,14 @@ Moteur RAG local sur les *Pensées* de Marc Aurèle, traduction Barthélemy-Sain
 
 - Tests ajoutés pour tout code ajouté, `uv run pytest` vert.
 - Le score d'éval ne baisse pas, ou la baisse est expliquée dans la PR.
+
+## Agent skills
+
+### Issue tracker
+
+Issues GitHub de `fgeronimi/memento`, via `gh`. See `docs/agents/issue-tracker.md`.
+
+
+### Domain docs
+
+Single-context : `GLOSSARY.md` + `docs/adr/` à la racine. See `docs/agents/domain.md`.
